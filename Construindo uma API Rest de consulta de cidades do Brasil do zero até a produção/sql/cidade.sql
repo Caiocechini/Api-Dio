@@ -1,6 +1,4 @@
---
--- Estrutura da tabela "cidade"
---
+
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -5628,8 +5626,6 @@ COPY public.cidade (id, nome, uf, ibge, lat_lon, latitude, longitude, cod_tom) F
 5609	Pescaria Brava	24	4212650	(-28.3966007232666016,-48.8863983154297017)	-28.3966007232666016	-48.8863983154297017	0
 5610	Exterior	99	9999999	\N	\N	\N	0
 \.
-
-
 
 ALTER TABLE ONLY public.cidade
     ADD CONSTRAINT cidade_pkey PRIMARY KEY (id);
